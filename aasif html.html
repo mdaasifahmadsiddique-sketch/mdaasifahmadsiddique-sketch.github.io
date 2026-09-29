@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aasif's Website</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+            font-family: Arial;
+            padding-top: 50px;
+        }
+
+        .box {
+            background-color: white;
+            padding: 30px;
+            width: 400px;
+            margin: auto;
+            border-radius: 15px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        button {
+            font-size: 18px;
+            padding: 10px 25px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .contact {
+            margin-top: 25px;
+            border-top: 1px solid gray;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>Assalamu Alaikum dosto!</h1>
+
+        <h2>My name is Md Aasif Reza Attari barkati.</h2>
+
+        <img src="Aasif foto.jpeg" alt="Aasif and friend" width="250">
+
+        <p>Welcome to my first website.</p>
+
+        <button onclick="showMessage()">Click Me</button>
+		<p id="message"></p>
+
+        <div class="about">
+
+            <h2>About Me</h2>
+
+            <p>My name is Md Aasif Reza Attari barkati.</p>
+
+            <p>I am learning Web Designing.</p>
+
+            <p>This is my first personal website dear guys.</p>
+
+
+        <p id="message"></p>
+
+        <div class="contact">
+
+            <h2>Contact Me</h2>
+
+            <p>📞 Phone: 9704715211,9704715231</p>
+
+            <p>📧 Gmail: attaribarkatimdaasifreza@gmail.com</p>
+
+            <p>📍 Address: Manharwa mirchiya nagarpalika wd.one</p>
+
+        </div>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+            "Welcome to Aasif's Website! 😊";
+        }
+    </script>
+
+</body>
+</html>
