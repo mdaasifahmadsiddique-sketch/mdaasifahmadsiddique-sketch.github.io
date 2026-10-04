@@ -1,96 +1,224 @@
 <!DOCTYPE html>
-<html>
+<html lang="ur" dir="ltr">
+
 <head>
-    <title>Aasif's Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Md Aasif Reza Attari Barkati | Official Website</title>
 
     <style>
+
         body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
             background-color: lightblue;
             text-align: center;
-            font-family: Arial;
-            padding-top: 50px;
         }
 
         .box {
-            background-color: white;
+            max-width: 700px;
+            margin: 40px auto;
             padding: 30px;
-            width: 400px;
-            margin: auto;
+            background-color: white;
             border-radius: 15px;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
         }
 
         h1 {
             color: darkblue;
         }
 
+        h2 {
+            color: #333;
+        }
+
         p {
             font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .urdu {
+            direction: rtl;
+            text-align: right;
+            font-family: "Jameel Noori Nastaleeq",
+                         "Noto Nastaliq Urdu",
+                         serif;
+            font-size: 21px;
+            line-height: 2.2;
         }
 
         button {
-            font-size: 18px;
-            padding: 10px 25px;
-            border-radius: 10px;
+            padding: 12px 25px;
+            font-size: 16px;
             cursor: pointer;
-            margin: 5px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        #message {
+            color: green;
+            font-weight: bold;
+        }
+
+        hr {
+            margin: 35px 0;
+        }
+
+        #about {
+            display: none;
         }
 
         .contact {
-            margin-top: 25px;
-            border-top: 1px solid gray;
-            padding-top: 15px;
+            text-align: left;
         }
+
     </style>
 </head>
+
 
 <body>
 
     <div class="box">
 
-        <h1>Assalamu Alaikum dosto!</h1>
+        <h1>Assalamu Alaikum Dosto! 😊</h1>
 
-        <h2>My name is Md Aasif Reza Attari barkati.</h2>
+        <h2>My name is Md Aasif Reza Attari Barkati.</h2>
 
-        <img src="aasif foto.jpeg" alt="Aasif and friend" width="250">
 
-        <p>Welcome to my first website.</p>
+        <!-- Your Photo -->
 
-        <button onclick="showMessage()">Click Me</button>
-		<p id="message"></p>
+        <img src="aasif foto.jpeg"
+             alt="Md Aasif Reza Attari Barkati">
 
-        <div class="about">
 
-            <h2>About Me</h2>
+        <p>Welcome to my personal website.</p>
 
-            <p>My name is Md Aasif Reza Attari barkati.</p>
 
-            <p>I am learning Web Designing.</p>
+        <!-- Click Me Button -->
 
-            <p>This is my first personal website dear guys.</p>
+        <button onclick="showAbout()">Click Me</button>
 
 
         <p id="message"></p>
 
+
+        <!-- About Me -->
+
+        <div id="about">
+
+            <hr>
+
+            <h1>میرے بارے میں</h1>
+
+            <div class="urdu">
+
+                <p>
+                    السلام علیکم ورحمۃ اللہ وبرکاتہ!
+                </p>
+
+                <p>
+                    میرا نام <strong>محمد آصف رضا عطاری برکاتی</strong> ہے۔
+                    مجھے دینی تعلیم حاصل کرنے اور دینِ اسلام کی خدمت کرنے کا
+                    شوق بچپن ہی سے رہا ہے۔
+                </p>
+
+                <p>
+                    میں نے اپنی دینی و تعلیمی زندگی میں مختلف مراحل طے کیے
+                    اور مولوی جماعت تک تعلیم حاصل کی۔ اس کے ساتھ ساتھ میں نے
+                    دارالعلوم حنفیہ اشرفیہ، لہان-۵، ضلع سِرہا، نیپال میں اردو
+                    کی تعلیم بھی حاصل کی۔
+                </p>
+
+                <p>
+                    دینی تعلیم کے دوران مجھے قرآنِ کریم، حدیث، فقہ، عقائد،
+                    عربی و فارسی اور دیگر اسلامی علوم کا مطالعہ کرنے کا موقع ملا۔
+                    مسلسل محنت، اساتذۂ کرام کی رہنمائی اور اللہ تعالیٰ کے فضل و کرم
+                    سے میں نے دینی تعلیم مکمل کی اور مولانا کی حیثیت سے دینی خدمت
+                    کا سفر شروع کیا۔
+                </p>
+
+                <p>
+                    تعلیم مکمل کرنے کے بعد میں نے
+                    <strong>الامین نیشنل اکیڈمی، لہان</strong> میں تدریسی خدمات
+                    انجام دیں، جہاں بچوں کو دینی و تعلیمی امور کی تعلیم دینے کے
+                    ساتھ ساتھ مختلف اسکولی سرگرمیوں میں بھی حصہ لیا۔
+                </p>
+
+                <p>
+                    اس کے علاوہ میں نے کمپیوٹر، ایم ایس آفس، ایکسل اور ٹَیلی
+                    وغیرہ کی تعلیم و تربیت بھی حاصل کی۔
+                </p>
+
+                <p>
+                    فی الحال میں تدریس اور دفتری امور سے وابستہ ہوں اور اپنی
+                    علمی، دینی اور پیشہ ورانہ صلاحیتوں کو مزید بہتر بنانے کی
+                    کوشش کر رہا ہوں۔
+                </p>
+
+                <p>
+                    میری خواہش ہے کہ اللہ تعالیٰ مجھے علمِ دین کی خدمت، بچوں کی
+                    اچھی تربیت اور معاشرے کے لیے مفید کام کرنے کی توفیق عطا فرمائے۔
+                </p>
+
+                <p>
+                    اللہ تعالیٰ میرے اس سفر کو قبول فرمائے اور مجھے ہمیشہ دین و
+                    دنیا میں کامیابی عطا فرمائے۔ آمین۔
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Contact -->
+
+        <hr>
+
         <div class="contact">
 
-            <h2>Contact Me</h2>
+            <h2>Contact</h2>
 
-            <p>📞 Phone: 9704715211,9704715231</p>
+            <p>
+                📧 Email: attaribarkatimdaasifreza@gmail.com
+            </p>
 
-            <p>📧 Gmail: attaribarkatimdaasifreza@gmail.com</p>
+            <p>
+                📍 Address: Nepal,siraha,mirchaiya,manharwa
+            </p>
 
-            <p>📍 Address: Manharwa mirchiya nagarpalika wd.one</p>
+            <p>
+                📞 Contact: 9704715211,9704715231
+            </p>
 
         </div>
 
     </div>
 
+
+    <!-- JavaScript -->
+
     <script>
-        function showMessage() {
+
+        function showAbout() {
+
+            document.getElementById("about").style.display = "block";
+
             document.getElementById("message").innerHTML =
-            "Welcome to Aasif's Website! 😊";
+                "Welcome to my About Me section! 😊";
+
         }
+
     </script>
 
+
 </body>
+
 </html>
